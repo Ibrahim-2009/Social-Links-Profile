@@ -65,6 +65,7 @@ h1, h2, p, button{
   width: 300px;
   margin-top: 15px;
   border-radius: 10px;
+  font-size: 14px;
   font-weight: var(--font-weight-medium);
   cursor: pointer;
 
