@@ -1,0 +1,87 @@
+:root{
+  --Grey-700: rgb(51, 51, 51);
+  --Grey-800: rgb(31, 31, 31);
+  --Grey-900: rgb(20, 20, 20);
+  --Green-color: rgb(197, 248, 42);
+  --font-weight-bold: 700;
+  --font-weight-medium: 600;
+  --font-weight-regular: 400;
+}
+body{
+  background-color: var(--Grey-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+  background-color: var(--Grey-800);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  
+  transition: all 0.1s;
+}
+h1, h2, p, button{
+  font-family: Inter, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 75px;
+}
+.name{
+  color: white;
+  margin-top: 30px;
+  font-size: 26px;
+  font-weight: var(--font-weight-medium);
+}
+.location{
+  color: var(--Green-color);
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+}
+.description{
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  transition: all 0.1s;
+}
+.button_style{
+  background-color: var(--Grey-700);
+  color: white;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 300px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+
+  transition: all 0.1s;
+}
+.button_style:hover{
+  background-color: var(--Green-color);
+  color: var(--Grey-800);
+}
+@media (max-width: 375px){
+  .card{
+    padding: 20px;
+  }
+  .button_style{
+    width: 250px;
+  }
+  .description{
+    font-size: 12px;
+  }
+}
