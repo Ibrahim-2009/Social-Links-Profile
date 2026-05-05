@@ -30,4 +30,4 @@ This project focuses on creating a clean profile card with social media links, e
 
 ## 🔗 Live Demo
 
-*Add your deployed project link here*
+https://ibrahim-2009.github.io/Social-Links-Profile/
